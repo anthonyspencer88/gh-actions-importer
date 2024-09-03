@@ -101,7 +101,7 @@ jobs:
             exit 1
           }
       - name: download artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: executables
           path: ${{ runner.temp }}/dist
